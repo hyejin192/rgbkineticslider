@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {}
+section .rgb {}
+
+section {
+    position: relative;
+    height: 100vh;
+}
+section .rgb {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+}
+#rgbKineticSlider canvas {
+    position: absolute;
+}
+nav .main-nav {
+    position: absolute;
+    top: 50%;
+}
+nav .prev {
+    left: 0%;
+    font-size: 10px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    line-height: 20px;
+    background-color: #ccc;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+}
+nav .next {
+    right: 0%;
+    font-size: 10px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    line-height: 20px;
+    background-color: #ccc;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+}
